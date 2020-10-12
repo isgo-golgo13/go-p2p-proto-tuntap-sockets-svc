@@ -1,0 +1,9 @@
+{
+    "Client" : "192.168.216.184",
+    "Server" : "100.26.71.181",
+    "ClientSrcPort" : 10000,
+    "ServerDstPort" : 9900,
+    "ServerProto" : "ip4:17",
+    "Mtu" : 2048,
+    "ClientTUN" : "tun0"
+}

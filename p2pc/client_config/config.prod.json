@@ -1,0 +1,7 @@
+{
+    "Server" : "0.0.0.0",
+    "ServerSrcPort" : 10000,
+    "ServerDstPort" : 9900,
+    "ServerProto" : "ip4:17",
+    "Mtu" : 2048
+}

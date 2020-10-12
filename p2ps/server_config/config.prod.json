@@ -1,0 +1,6 @@
+{
+    "Server" : "0.0.0.0",
+    "ServerPort" : 9900,
+    "ServerProto" : "udp",
+    "Mtu" : 2048
+}
