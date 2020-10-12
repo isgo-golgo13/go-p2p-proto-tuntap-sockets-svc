@@ -3,13 +3,14 @@ package client
 import (
 	"context"
 	"net"
-	"network-poc/p2p_tunnelsvc/tun"
 	"reflect"
 	"sync"
 	"testing"
 
-	log "github.com/Sirupsen/logrus"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/tun"
+
 	"github.com/google/gopacket/layers"
+	log "github.com/sirupsen/logrus"
 )
 
 func TestUDPClient_CliRecv(t *testing.T) {

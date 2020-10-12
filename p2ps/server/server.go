@@ -4,12 +4,13 @@ import (
 	"context"
 	"fmt"
 	"net"
-	"network-poc/p2p_tunnelsvc/p2ps/server_config"
-	"network-poc/p2p_tunnelsvc/tun"
 	"os"
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/p2ps/server_config"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/tun"
+
+	log "github.com/sirupsen/logrus"
 )
 
 type ServerSvc interface {

@@ -2,11 +2,14 @@ package main
 
 import (
 	"sync"
-	"network-poc/p2p_tunnelsvc/p2pc/client_config"
-	"network-poc/p2p_tunnelsvc/p2pc/client"
+
+	"github.com/isgo-golgo13/p2p_tunnel_svc/p2pc/client"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/p2pc/client_config"
 )
 
-const ( GOROUTINES = 2 )
+const (
+	GOROUTINES = 2
+)
 
 func main() {
 
@@ -26,4 +29,3 @@ func main() {
 	cli.CliRecvSend(&wg, done, outStream)
 	wg.Wait()
 }
-

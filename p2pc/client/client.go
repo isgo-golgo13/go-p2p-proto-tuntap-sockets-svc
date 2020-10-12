@@ -5,14 +5,15 @@ import (
 	"errors"
 	"fmt"
 	"net"
-	"network-poc/p2p_tunnelsvc/p2pc/client_config"
-	"network-poc/p2p_tunnelsvc/tun"
 	"os"
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/p2pc/client_config"
+	"github.com/isgo-golgo13/p2p_tunnel_svc/tun"
+
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
+	log "github.com/sirupsen/logrus"
 )
 
 type ClientSvc interface {
