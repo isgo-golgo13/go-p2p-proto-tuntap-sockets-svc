@@ -1,4 +1,4 @@
-# Go P2P TUN/TAP Tunneling Service using UDP Sockets w/ Protocol Buffers and Docker
+# Go P2P TUN/TAP Tunneling Service
 
 ![p2p tunnel architecture diagram](arch_docs/tap_pipeline_architecture.png)
 
